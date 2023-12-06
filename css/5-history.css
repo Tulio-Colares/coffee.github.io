@@ -1,0 +1,46 @@
+.history-container{
+    display: flex;
+}
+
+.history-img{
+    height: 60vh;
+    margin: 0;
+    /*Porque eu precisei definir a margin como zero, 
+    se eu já havia feito isso lá em styles gerais?*/
+}
+
+.history-text{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 80px;
+    background-color: #dfdfdf;
+}
+
+.history-title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.history-p{
+    margin: 15px 0;
+}
+
+.button-history{
+    color: black;
+    border: 2px solid black;
+    margin: 25px 0
+}
+
+.button-history:hover{
+    cursor: pointer;
+    background-color: rgb(26, 26, 26);
+    color: white
+}
+
+
+
+
+/*Responsividade*/
+

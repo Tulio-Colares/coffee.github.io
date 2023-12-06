@@ -1,0 +1,48 @@
+.home{
+    display: flex;
+    background-image: url("imagens/hero.jpg");
+    /* height: 500px; */
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.home-title{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.main-title{
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+.sub-header{
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+button{
+    margin: 20px auto;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.1pc;
+    width: 250px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: rgb(22, 22, 22);
+    transition-duration: 0.5s;
+}
+

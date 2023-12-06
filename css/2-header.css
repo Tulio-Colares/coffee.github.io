@@ -1,0 +1,42 @@
+
+header{
+    display: flex;
+    padding: 10px 50px;
+    background-color: rgb(26, 26, 26);
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover{
+    transition-duration: 0.5s;
+    background-color: antiquewhite;
+    color: rgb(22, 22, 22);
+    font-weight: 600;
+}
+
+.main-menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.logo{
+    font-size: 30px;
+    font-family: 'Agbalumo', sans-serif;
+}
+
