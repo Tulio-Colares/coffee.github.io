@@ -1,4 +1,4 @@
-# cafeteria
+# Cafeteria
 Português:Um site onepage simples mas ainda assim responsivo criado apenas usando HTML e CSS. Nenhum framework foi usado, para praticar muito bem esses coinceitos. Obs: Ainda faltam pequenos ajustes na versão mobile.
 
 
